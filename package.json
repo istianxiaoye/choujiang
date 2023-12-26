@@ -17,6 +17,12 @@
     "copyright": "Copyright © 2023-present Andy",
     "compression": "maximum",
     "asar": true,
+    "extraResources": [
+      {
+        "from": "public/mp3s", 
+        "to": "/mp3s"
+      }
+    ],  
     "asarUnpack": [
       "public/*",
       "node_modules/*"
